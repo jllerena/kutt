@@ -3,6 +3,7 @@ const { cleanEnv, num, str, bool } = require("envalid");
 const { readFileSync } = require("node:fs");
 
 const supportedDBClients = [
+  "turso",
   "pg",
   "pg-native",
   "sqlite3",
